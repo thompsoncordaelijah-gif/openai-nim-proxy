@@ -34,6 +34,7 @@ const MODEL_MAPPING = {
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-v4': 'deepseek-ai/deepseek-v4-pro'
+  'Glm-5.1' : 'z-ai/glm-5.1'
 };
 
 app.get('/health', (req, res) => {
