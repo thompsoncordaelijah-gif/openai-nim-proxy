@@ -35,7 +35,7 @@ const MODEL_MAPPING = {
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-v4': 'deepseek-ai/deepseek-v4-pro',
   'Glm-5.1' : 'z-ai/glm-5.1',
-  'qwen3.5-122b-a10b':'qwen3.5-122b-a10b',
+  'qwen3.5-122b-a10b':'qwen/qwen3.5-122b-a10b',
 };
 
 app.get('/health', (req, res) => {
