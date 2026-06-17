@@ -36,7 +36,7 @@ const MODEL_MAPPING = {
   'deepseek-v4': 'deepseek-ai/deepseek-v4-pro',
   'Glm-5.1' : 'z-ai/glm-5.1',
   'qwen3.5-122b-a10b':'qwen/qwen3.5-122b-a10b',
-  'z-ai/glm-5',:'z-ai/glm-5'
+  'z-ai/glm-5 :'z-ai/glm-5'
 };
 
 app.get('/health', (req, res) => {
